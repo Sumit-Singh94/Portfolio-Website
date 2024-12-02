@@ -38,7 +38,7 @@ export default function Home() {
         {/* PROJECTS   SECTION */}
 
 
-        <div className='sm:w-full'>
+        <div className='animate__animated  animate__fadeInLeftBig animate__delay-2s	 sm:w-full'>
         <div className='flex justify-center'>
         <h1 className='text-white ml-12 font-mono text-center text-[45px] hover:underline inline-flex underline-offset-4'>PROJECTS</h1></div>
 
