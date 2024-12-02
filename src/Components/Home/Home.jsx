@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import{motion} from 'framer-motion'
-import {fadeIn} from '../variants'
+import 'animate.css';
+
 
 export default function Home() {
 
@@ -12,14 +12,14 @@ export default function Home() {
 
         <div className='bg-black'>
 
-        <div className='bg-black p-4 mb-10 flex flex-col lg:flex-row items-center'>
+        <div className='animate__animated animate__fadeInLeftBig bg-black p-4 mb-10 flex flex-col lg:flex-row items-center'>
 
             <div className='w-full p-4'>
             <h1 className='text-white text-[50px] -mt-12 mb-10 font-mono'> Frontend Developer</h1>
 
                 <h1 className='text-white mb-4 font-mono text-[20px]'>
                     My name is Sumit Singh, and I'm pursuing my degree in Bachelor's In Computer Application from NSHM College Of Management And Technology.
-                     I'm a passionate Frontend Developer,and i have also <span className='text-cyan-400'>Contributed </span>in making my College Website with
+                     I'm a passionate Frontend Developer,and i have also <span className='text-cyan-400'>Contribute </span>in making my College Website with
                       <span className='text-cyan-400'> my team.</span>
                 </h1>
             </div>
