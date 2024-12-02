@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     /* From Uiverse.io by themrsami */ 
-<div class="flex flex-col items-center justify-center h-screen dark">
+<div class="animate__animated animate__fadeInLeftBig flex flex-col items-center justify-center h-screen dark">
   <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
     <h2 class="text-2xl font-bold text-gray-200 mb-4">Contact Form</h2>
 
