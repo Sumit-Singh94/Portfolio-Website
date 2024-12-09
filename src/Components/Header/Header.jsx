@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
+import Themebtn from '../Themebtn';
 
 export default function Header() {
     return (
@@ -15,6 +16,8 @@ export default function Header() {
                     </Link>
                     <div className="flex items-center lg:order-2">
 
+
+                    <Themebtn/>
 
                         <Link
                             to="#"

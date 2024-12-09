@@ -3,7 +3,7 @@ import {ThemeProvider} from "./context/theme"
 import Home from "./Components/Home/Home"
 import Header from "./Components/Header/Header"
 import Footer from "./Components/Footer/Footer"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function App() {
 
@@ -18,10 +18,19 @@ function App() {
 
   }
 
+  useEffect(() => {
+    document.querySelector('html').classList.remove("light","dark") 
+    document.querySelector('html').classList.add(themeMode) 
+
+
+  }, [themeMode])
+  
+
 
   return (
   
     <ThemeProvider value={{themeMode,lightTheme,darkTheme}}>
+    
     <Header/>
     <Outlet/>
     <Footer/>
